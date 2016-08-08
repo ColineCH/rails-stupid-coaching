@@ -1,0 +1,11 @@
+<h1><%= @query %></h1>
+<p> me </p>
+
+
+<h1><%= @answer %></h1>
+
+<p>my coach</p>
+
+<% unless @ask_again %>
+  <%= link_to "Ask a new question", ask_path %>
+<%end%>
